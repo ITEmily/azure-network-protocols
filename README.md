@@ -28,7 +28,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Step 1: Create a Resource Group and then find and click on Virtual Machines
 - Step 2: Create a Windows 10 Virtual Machine and then Create a Linux (Ubuntu) Virtual Machine
 - Step 3: Use Remote Desktop to connect to the Windows 10 Virtual Machine
-- Step 4
+- Step 4: Download Wireshark
+- Step 5: Filter for ICMP traffic and ping Linux VM from the Window VM
+- Step 6: Observe the ping requests and replies within Wireshark
 
 <h2>Actions and Observations</h2>
 
@@ -53,5 +55,29 @@ Step 2: Create a Windows 10 Virtual Machine and then Create a Linux (Ubuntu) Vir
 </p>
 <p>
 Step 3: Use Remote Desktop to connect to the Windows 10 Virtual Machine
+</p>
+<br />
+
+<p>
+<img src=https://i.imgur.com/MI2TUW1.png"" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 4: Download Wireshark
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/0oi4o7M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 5: Filter for ICMP traffic and ping Linux VM from the Window VM
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/rALBH07.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 6: Observe the ping requests and replies within Wireshark
 </p>
 <br />
