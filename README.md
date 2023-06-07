@@ -39,7 +39,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/CmtzSeG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: Create a Resource Group and Create a Windows 10 Virtual Machine
+Step 1:  Create a Resource Group and then find and click on Virtual Machines
 </p>
 <br />
 
