@@ -21,17 +21,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1: Create a Resource Group and then find and click on Virtual Machines
-- Step 2: Create a Windows 10 Virtual Machine and then Create a Linux (Ubuntu) Virtual Machine
-- Step 3: Use Remote Desktop to connect to the Windows 10 Virtual Machine
-- Step 4: Download Wireshark
-- Step 5: Filter for ICMP traffic and ping Linux VM from the Window VM
-- Step 6: Observe the ping requests and replies within Wireshark
+- Step 1: Create a Resource Group.
+- Step 2: Create a Windows 10 Virtual Machine and then Create a Linux (Ubuntu) Virtual Machine.
+- Step 3: Use Remote Desktop to connect to the Windows 10 Virtual Machine.
+- Step 4: Download Wireshark.
+- Step 5: Filter for ICMP traffic and ping Linux VM from the Window VM.
+- Step 6: Observe the ping requests and replies within Wireshark.
 - Step 7: Initiate a non-stop ping from Windows 10 VM to the Linux VM. Then, open the Network Security Group for the Linux VM and disable incoming ICMP trafffic.
 - Step 8: "SSH into" your Linux VM and observe SSH traffic in Wireshark.
 - Step 9: Observe DHCP Traffic by using ipconfig /renew to issue your Windows 10 VM a new IP address.
 - Step 10: Observe DNS traffic by using nslookup for Disney and Google.
 - Step 11: Observe RDP traffic by filtering tcp.port==3389 traffic in Wireshark.
+<br />
+<br />
 
 <h2>Actions and Observations</h2>
 
@@ -42,6 +44,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 Step 1:  Create a Resource Group and then find and click on Virtual Machines
 </p>
 <br />
+<br />
+<br />
 
 <p>
 <img src="https://i.imgur.com/iTShPLl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -49,6 +53,8 @@ Step 1:  Create a Resource Group and then find and click on Virtual Machines
 <p>
 Step 2: Create a Windows 10 Virtual Machine and then Create a Linux (Ubuntu) Virtual Machine
 </p>
+<br />
+<br />
 <br />
 
 <p>
@@ -58,6 +64,8 @@ Step 2: Create a Windows 10 Virtual Machine and then Create a Linux (Ubuntu) Vir
 Step 3: Use Remote Desktop to connect to the Windows 10 Virtual Machine
 </p>
 <br />
+<br />
+<br />
 
 <p>
 <img src=https://i.imgur.com/MI2TUW1.png"" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -65,6 +73,8 @@ Step 3: Use Remote Desktop to connect to the Windows 10 Virtual Machine
 <p>
 Step 4: Download Wireshark
 </p>
+<br />
+<br />
 <br />
 
 <p>
@@ -74,6 +84,8 @@ Step 4: Download Wireshark
 Step 5: Filter for ICMP traffic and ping Linux VM from the Window VM
 </p>
 <br />
+<br />
+<br />
 
 <p>
 <img src="https://i.imgur.com/rALBH07.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -81,6 +93,8 @@ Step 5: Filter for ICMP traffic and ping Linux VM from the Window VM
 <p>
 Step 6: Observe the ping requests and replies within Wireshark. You can also observe the wireshark traffic when pinging public websites such as www.google.com.
 </p>
+<br />
+<br />
 <br />
 
 <p>
@@ -90,6 +104,8 @@ Step 6: Observe the ping requests and replies within Wireshark. You can also obs
 Step 7: Initiate a non-stop ping from Windows 10 VM to the Linux VM. Then, open the Network Security Group for the Linux VM and disable incoming ICMP trafffic. To do this, search for Network Security Group in Azure, click on "Inbound Security Rules" and then click on "+ Add".
 </p>
 <br />
+<br />
+<br />
 
 <p>
 <img src="https://i.imgur.com/4PE66zJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -98,13 +114,16 @@ Step 7: Initiate a non-stop ping from Windows 10 VM to the Linux VM. Then, open 
  Step 8: "SSH into" your Linux VM and observe SSH traffic in Wireshark.
 </p>
 <br />
-
+<br />
+<br />
 <p>
 <img src="https://i.imgur.com/w9CxQm6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 9: Observe DHCP Traffic by using ipconfig /renew to issue your Windows 10 VM a new IP address.
 </p>
+<br />
+<br />
 <br />
 
 <p>
@@ -113,6 +132,8 @@ Step 9: Observe DHCP Traffic by using ipconfig /renew to issue your Windows 10 V
 <p>
 Step 10: Observe DNS traffic by using nslookup for Disney and Google.
 </p>
+<br />
+<br />
 <br />
 
 <p>
